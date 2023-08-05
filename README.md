@@ -4,7 +4,7 @@
 Deve ser capaz de visualizar todos os planetas do sistema solar renderizados na tela, bem como visualizar cartas com informações sobre missões espaciais.
 
 ## Como rodar o projeto?
-<a href="https://https://aline-ms-solar-system.surge.sh//" target="_blank">Link do Projeto</a>
+<a href="https://aline-ms-solar-system.surge.sh/" target="_blank">Link do Projeto</a>
 ### ou
 ```bash
 npm install
