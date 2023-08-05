@@ -1,3 +1,640 @@
+html {
+  background-image: url('./images/background.png');
+}
+
 .App {
+  color: white;
   text-align: center;
+}
+
+.header {
+  font-family: Staatliches , cursive;
+  font-size: 60px;
+}
+
+.title {
+  font-family: Maven Pro , sans-serif;
+  font-size: 30px;
+}
+
+.planets {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.solar-system hr {
+  position: relative;
+  top: 115px;
+  z-index: -1;
+}
+
+.planet-0 img {
+  height: 31px;
+}
+
+
+.planet-1 img {
+  height: 76px;
+  margin-left: 30%;
+}
+
+.planet-1 p {
+  margin-left: 55%;
+}
+
+.planet-2 img {
+  height: 79px;
+  margin-left: 60%;
+}
+
+.planet-2 p {
+  margin-left: 90%;
+}
+
+.planet-3 img {
+  height: 50px;
+  margin-left: 150%;
+}
+
+.planet-3 p {
+  margin-left: 170%;
+}
+
+.planet-4 img {
+  height: 204px;
+  margin-left: 41%;
+}
+
+.planet-4 p {
+  margin-left: 75%;
+}
+
+.planet-5 img {
+  height: 210px;
+  margin-left: 20%;
+  transform: rotate(-16.53deg);
+}
+
+.planet-5 p {
+  margin-left: 40%;
+}
+
+.planet-6 img {
+  height: 109px;
+}
+
+.planet-7 img {
+  height: 107px;
+}
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.mission-0 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-0:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-0 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-0 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-1 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-1:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-1 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-1 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-2 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-2:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-2 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-2 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-3 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-3:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-3 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-3 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-4 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-4:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-4 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-4 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-5 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-5:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-5 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-5 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-6 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-6:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-6 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-6 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-7 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-7:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-7 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-7 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-8 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-8:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-8 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-8 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-9 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-9:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-9 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-9 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-10 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-10:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-10 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-10 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-11 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-11:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-11 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-11 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-12 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-12:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-12 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-12 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-13 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-13:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-13 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-13 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-14 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-14:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-14 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-14 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-15 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-15:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-15 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-15 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-16 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-16:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-16 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-16 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-17 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-17:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-17 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-17 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-18 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-18:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-18 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-18 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.mission-19 {
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.mission-19:hover {
+  box-shadow: 0 0 10px yellow;
+}
+
+.mission-19 .mission-name {
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  font-size: large;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+.mission-19 .mission-info {
+  display: flex;
+  font-family: Lucida Sans , sans-serif;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
 }
